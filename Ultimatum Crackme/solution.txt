@@ -1,0 +1,8 @@
+just run 'strings' and find these two lines:
+'Well done! Please sumbit a solution on the crackmes.one website under this post!'
+VGhpcyBpcyB0aGUgY29ycmVjdCBwYXNza2V5LCB3ZWxsIGRvbmUh
+
+On a windows machine run the executeable with the above hash as the password and get success.
+
+additionally, the password is a base64 encoding of
+'This is the correct passkey, well done!'
